@@ -34,7 +34,7 @@ services:
       - APP_NAME=Laravel
       - APP_ENV=local
       - APP_DEBUG=true
-      - APP_URL=http://localhost:90
+      - APP_URL='https://invoice.huesion.com'
       - DB_CONNECTION=pgsql
       - DB_HOST=invoiceshelf_db
       - DB_PORT=5432
@@ -46,8 +46,8 @@ services:
       - SESSION_LIFETIME=120
       - SESSION_ENCRYPT=false
       - SESSION_PATH=/
-      - SESSION_DOMAIN=localhost
-      - SANCTUM_STATEFUL_DOMAINS=localhost:90
+      - SESSION_DOMAIN=invoice.huesion.com
+      - SANCTUM_STATEFUL_DOMAINS=invoice.huesion.com
       - STARTUP_DELAY=10
       #- MAIL_DRIVER=smtp
       #- MAIL_HOST=smtp.mailtrap.io
